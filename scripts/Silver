@@ -1,6 +1,7 @@
 /* DDL - יצרתי את העמודות בשכבה של ה SILVER
-ע"י העתקה של השכבה של BRONZER ושינוי השם ל SILVER */
+ע"י העתקה של השכבה של BRONZER ושינוי השם ל SILVER 
 =============================================================================
+*/
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_cust_info;
 GO
